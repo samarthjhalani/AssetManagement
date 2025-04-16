@@ -13,11 +13,11 @@ class Book extends Asset {
 
     @Override
     public void display() {
-        System.out.println("Serial Number: " + serialNumber);
-        System.out.println("Name :" + name);
-        System.out.println("Author :" + author);
-        System.out.println("Date Of Publish: " + dateOfPublish);
-        System.out.println("-----------------------------------");
+            System.out.println("Serial Number: " + serialNumber);
+            System.out.println("Name :" + name);
+            System.out.println("Author :" + author);
+            System.out.println("Date Of Publish: " + dateOfPublish);
+            System.out.println("-----------------------------------");
     }
 
 }

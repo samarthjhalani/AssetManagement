@@ -10,7 +10,7 @@ abstract class Asset {
         this.name = name;
     }
 
-    public int getSerialNumber() {
+    public int  getSerialNumber() {
         return serialNumber;
     }
 
