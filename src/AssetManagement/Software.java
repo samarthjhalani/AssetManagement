@@ -1,10 +1,10 @@
 package AssetManagement;
 
-class SoftwareLicense extends Asset {
+class Software extends Asset {
     public String licenseKey;
     public String expiryDate;
 
-    public SoftwareLicense(int serialNumber, String name, String licenseKey, String expiryDate) {
+    public Software(int serialNumber, String name, String licenseKey, String expiryDate) {
         super(serialNumber, name);
         this.licenseKey = licenseKey;
         this.expiryDate = expiryDate;
